@@ -45,6 +45,5 @@ app.get('/', async (req, res) => {
     }
     res.send(events);
 });
-app.listen(4600)
 // Export handler for serverless deployment
-// module.exports.handler = serverless(app);
+module.exports.handler = serverless(app);
